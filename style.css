@@ -1,0 +1,108 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  body,
+  html {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(1, 1, 128);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
+  
+
+  #card {
+    width: 380px;
+    height: 580px;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow-x: auto;
+  
+  }
+  
+  #card h1 {
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-top: 5px;
+    border-bottom: 1px solid rgb(85, 85, 85);
+  }
+  
+  #card #upper {
+    width: 100%;
+    height: 60px;
+    /* background-color: rebeccapurple; */
+     display: flex; 
+    flex-direction: row;
+    padding: 10px 15px;
+    margin-bottom: -4px;
+    border-bottom: 1px solid rgb(85, 85, 85); 
+  }
+  
+  
+  
+  #card #upper img {
+  
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  
+  }
+  
+  #card #upper h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    font-size: 15px;
+  }
+  
+  #iimg {
+    margin-top: 8px;
+    width: 100%;
+    height: calc(100% - 180px);
+  }
+  
+  #iimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  #icon {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  #icon i {
+    font-size: 22px;
+    margin-left: 12px;
+  }
+  
+  #icon h5 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 12px;
+  }
+  
+  #card #iimg #center {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(5);
+    transition: all 0.2s ease;
+    opacity: 0;
+  
+  } 
